@@ -1,0 +1,6 @@
+# This .gitignore file should be placed at the root of your website directory
+# 2020/11/13
+#
+
+[Pp]rivate/
+
