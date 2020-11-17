@@ -1,0 +1,33 @@
+:root{
+  --headerHeight: 10%;
+  --footerHeight: 5%;
+  --navHeight: 5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+}
+header{
+  height: var(--headerHeight, 10%);
+}
+footer{
+  height: var(--footerHeight, 5%);
+}
+nav{
+  height: var(--navHeight, 5%);
+}
+main{
+  height: calc(100% - var(--headerHeight, 10%) - var(--footerHeight, 5%) - var(--navHeight, 5%));
+}
+article{
+  height: 100%;
+}
+#sideLeft {
+  float: left;
+}
+#sideRight {
+  float: right;
+}
