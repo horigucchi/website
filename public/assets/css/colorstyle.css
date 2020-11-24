@@ -3,6 +3,19 @@ html{
   color: #F1F1F1;
 }
 
+a{
+  color: #D0D0D0;
+  text-decoration: none;
+}
+
+main a{
+  color: #0097FB;
+}
+
+nav a{
+  color: #D0D0D0;
+}
+
 nav li{
   background-color: #007ACC;
 }

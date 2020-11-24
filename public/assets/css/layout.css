@@ -59,7 +59,10 @@ li{
 @media screen and (max-width: 800px) {
   .sideMenu{
     writing-mode: vertical-rl;
-    width: 20px;
+    width: 30px;
+  }
+  hr{
+    height:20px;
   }
   .sideMenu section{
     display: none;
