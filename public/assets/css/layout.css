@@ -1,8 +1,10 @@
+/* 変数 */
 :root{
   --headerHeight: 60px;
   --footerHeight: 30px;
   --navHeight: 30px;
 }
+/* 全体設定 */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
 html, body{
   height: 100%;
 }
+/* 高さ設定 */
 header{
   height: var(--headerHeight, 60px);
 }
@@ -20,16 +23,21 @@ nav{
   height: var(--navHeight, 30px);
 }
 main{
-  height: calc(100% - var(--headerHeight, 60px) - var(--footerHeight, 30px) - var(--navHeight, 30px));
+  height: calc(100% - var(--headerHeight, 60px) - var(--footerHeight, 30px));
+  width: 100%;
 }
 .container{
   display: flex;
   height: 100%;
 }
-article{
-  height: 100%;
+.content{
   width: 100%;
 }
+
+.content article{
+  height: calc(100% - var(--navHeight, 30px));
+}
+
 .sideMenu{
   width: 200px;
 }
