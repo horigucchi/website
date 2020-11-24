@@ -53,4 +53,7 @@ li{
     writing-mode: vertical-rl;
     width: 20px;
   }
+  .sideMenu section{
+    display: none;
+  }
 }
